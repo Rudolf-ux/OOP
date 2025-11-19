@@ -16,11 +16,6 @@ class Car:
         recycling_fee = base_fee * self.horsepower
         return recycling_fee
 
-    def calculate_vehicle_tax(self):
-
-        tax_rate = 15  # Ставка налога за 1 лошадиную силу
-        vehicle_tax = self.horsepower * tax_rate
-        return vehicle_tax
 
     def calculate_vehicle_tax(self):
 
