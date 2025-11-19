@@ -11,7 +11,7 @@ class House:
 
 if __name__ == '__main__':
     house1 = House("Gamburg", "Mechnikova", 51, 10)
-    house1 = House("Budapesht", "Pushkina", 17, 1)
-    house1 = House("Paris", "Timofeeva", 77, 19)
+    house2 = House("Budapesht", "Pushkina", 17, 1)
+    house3 = House("Paris", "Timofeeva", 77, 19)
 
     print(house1)
