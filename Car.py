@@ -9,7 +9,7 @@ class Car:
     def __str__(self):
         return (f"car_number: {self.car_number} | model:{self.model} | color: {self.color} | horsepower: {self.horsepower}" )
 
-    def calculate_recycling_fee(self):
+    def recycling_fee(self):
 
         base_fee = 1000
         power_coefficient = self.horsepower / 100
@@ -17,7 +17,7 @@ class Car:
         return recycling_fee
 
 
-    def calculate_vehicle_tax(self):
+    def car_tax(self):
 
         tax_rate = 15
         vehicle_tax = self.horsepower * tax_rate
@@ -28,4 +28,4 @@ if __name__ == '__main__':
     car2 = Car("O111OO761", "GAZ", "Black", 555)
     car3 = Car("B161OP061", "YAZ", "Black", 450)
 
-    print(car3, f" | recycling: {car1.calculate_recycling_fee()} | vehicle: {car1.calculate_vehicle_tax()} ")
+    print(car1, f" | recycling: {car1.recycling_fee()} | vehicle: {car1.car_tax()} ")
