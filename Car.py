@@ -16,7 +16,6 @@ class Car:
         recycling_fee = base_fee * self.horsepower
         return recycling_fee
 
-
     def car_tax(self):
 
         tax_rate = 15

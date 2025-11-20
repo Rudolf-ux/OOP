@@ -14,8 +14,6 @@ class Person:
         else:
             return "м"
 
-
-
 if __name__ == '__main__':
     student_one = Person("Vany", 27, "P52")
     student_two = Person("Karina", 31, "P53")

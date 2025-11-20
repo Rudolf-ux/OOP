@@ -2,7 +2,6 @@ from Person import Person
 from Car import Car
 from House import House
 
-
 def main():
 
     person = Person("Anna", 25, 52)
@@ -12,7 +11,6 @@ def main():
     print(person)
     print(car)
     print(house)
-
 
 if __name__ == '__main__':
     main()
